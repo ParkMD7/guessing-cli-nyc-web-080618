@@ -14,9 +14,8 @@ def run_guessing_game
     when 'exit'
       puts "Goodbye!"
       break
-    if users_input != random_numb
+    else
       puts "The computer guessed #{random_numb}."
-    end
     end
   end
 end
