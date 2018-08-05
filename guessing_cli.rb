@@ -17,5 +17,6 @@ def run_guessing_game
     if users_input != random_numb
       puts "The computer guessed #{random_numb}."
     end
+    end
   end
 end
